@@ -42,14 +42,14 @@ body {
 
 /* WOOCOMMERCE */
 
-.post-type-archive-product.right-sidebar .widget-area{
+/* .post-type-archive-product.right-sidebar .widget-area{
   display: none;
 }
 
 .post-type-archive-product.right-sidebar .content-area {
   width: 100%;
   margin-right: 0;
-}
+} */
 
 .woocommerce-breadcrumb {
   margin: 1em 0;

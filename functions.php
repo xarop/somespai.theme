@@ -29,3 +29,4 @@ require_once( 'inc/class-somespai-integrations.php' );
  * of this theme is performed. Instead, add your customisations to a plugin such as
  * https://github.com/woothemes/theme-customisations
  */
+

@@ -21,7 +21,7 @@ class somespai {
 	public function __construct() {
 		add_action( 'after_setup_theme', array( $this, 'setup' ), 20 );
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_styles' ) );
-		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_child_styles' ), 90 );
+		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_child_styles' ), 89 );
 		add_filter( 'storefront_woocommerce_args', array( $this, 'woocommerce_support' ) );
 		add_action( 'body_class', array( $this, 'body_classes' ) );
 	}
