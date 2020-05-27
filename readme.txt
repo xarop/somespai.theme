@@ -1,14 +1,6 @@
 === somespai ===
-Contributors:      automattic, jameskoster, tiagonoronha
-Tags:              e-commerce, light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
-Requires at least: 4.0
-Tested up to:      5.2
-Stable tag:        2.0.17
-License:           GPLv2 or later
-Image License:     GPLv2 or later
-License URI:       http://www.gnu.org/licenses/gpl-2.0.html
-
-A Storefront child theme designed for small WooCommerce stores / somespais. *somespai* features a simple, traditional design which you can customise using the settings available in the WordPress Customizer. Looking for a theme for your new WooCommerce store? Look no further than Storefront and somespai!
+Author: xarop.com
+Storefront child theme 
 
 == Description ==
 
