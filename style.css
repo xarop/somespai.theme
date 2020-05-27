@@ -33,3 +33,25 @@ body {
 .site-branding .site-title a {
   font-weight: 500;
 }
+
+.site-main {
+  margin-top: 2em;
+}
+
+
+
+/* WOOCOMMERCE */
+
+.post-type-archive-product.right-sidebar .widget-area{
+  display: none;
+}
+
+.post-type-archive-product.right-sidebar .content-area {
+  width: 100%;
+  margin-right: 0;
+}
+
+.woocommerce-breadcrumb {
+  margin: 1em 0;
+  opacity: .7;
+}
