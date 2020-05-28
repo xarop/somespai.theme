@@ -29,7 +29,7 @@ body {
 
 
 
-.site-title, .site-description, nav, h1, h2, h3, h4, h5, h6 {  
+.site-title, .site-description, .header, nav,  h1, h2, h3, h4, h5, h6 {  
   font-family: 'DM Mono', monospace;
 }
 
@@ -43,6 +43,14 @@ body {
 
 h1, .entry-title {
   color: black;
+}
+
+
+button, .wp-block-button__link,  input[type="button"], input[type="reset"], input[type="submit"], .button, .widget a.button,
+.hentry .entry-content .wp-block-button .wp-block-button__link, .editor-styles-wrapper .wp-block-button .wp-block-button__link {
+  font-family: 'DM Mono', monospace;
+  background-color: #6fcf97;
+  border-radius: 10px;
 }
 
 
@@ -74,7 +82,16 @@ h1, .entry-title {
 }
 
 @media (min-width: 768px) {
- article.post{
-   /* display: flex; */
- }
+  .site-header .site-branding img {
+    max-width: 320px;
+  }
+  .storefront-secondary-navigation.woocommerce-active .site-header .site-branding {
+    width: 30%;
+  }
+  .storefront-secondary-navigation.woocommerce-active .site-header .secondary-navigation {
+    width: 39%;
+  }
+  .wcfm-dashboard-page .col-full {
+    max-width: 100%;
+  }
 }

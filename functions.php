@@ -30,3 +30,9 @@ require_once( 'inc/class-somespai-integrations.php' );
  * https://github.com/woothemes/theme-customisations
  */
 
+
+// HOOKS
+// add_filter( 'wcfm_store_setup_complete_button', function( $button_label ) {
+// 	$button_label = 'Panel Sklepu';
+// 	return $button_label;
+// });
