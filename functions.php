@@ -32,7 +32,19 @@ require_once( 'inc/class-somespai-integrations.php' );
 
 
 // HOOKS
-// add_filter( 'wcfm_store_setup_complete_button', function( $button_label ) {
-// 	$button_label = 'Panel Sklepu';
-// 	return $button_label;
-// });
+
+add_action( 'init', 'custom_remove_footer_credit', 10 );
+
+function custom_remove_footer_credit () {
+    remove_action( 'storefront_footer', 'storefront_credit', 20 );
+    add_action( 'storefront_footer', 'custom_storefront_credit', 20 );
+} 
+
+function custom_storefront_credit() {
+	?>
+	<div class="site-info">
+        &copy; <?php echo get_bloginfo( 'name' ) . ' ' . get_the_date( 'Y' ); ?> · 
+        Desenvolupat a Vila de Gràcia, Barcelona per <a href="http://xarop.com" target="_blank">xarop.com</a>
+	</div><!-- .site-info -->
+	<?php
+}
